@@ -2,7 +2,7 @@
 const Button5 = () => {
   return (
     <>
-      <button className="h-[36px] pl-6 pr-3 py-3 border outline-double outline-purple-500 outline-1 font-semibold outline-offset-2 relative inline-flex items-center justify-start overflow-hidden transition-all bg-white rounded hover:bg-white group">
+      <button className=" m-4 h-[36px] pl-6 pr-3 py-3 border outline-double outline-purple-500 outline-1 font-semibold outline-offset-2 relative inline-flex items-center justify-start overflow-hidden transition-all bg-white rounded hover:bg-white group">
         <span className="w-5 h-full rounded-r-full bg-purple-600 absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full group-hover:rounded-none -z-1"></span>
         <span className="w-full tracking-[2px] text-black text-sm font-semibold transition-colors duration-300 ease-in-out group-hover:text-white z-10">
           Hover Me

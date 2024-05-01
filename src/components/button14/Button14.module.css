@@ -1,0 +1,42 @@
+ .button14 {
+    background-image: linear-gradient(90deg, #7b81ec, #3bd1d3);
+    margin: 15px;
+    border: 6px solid rgba(255,255,255,0.45);
+    border-radius: 50px;
+    padding: 1em 2em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: padding-box;
+    position: relative;
+    color: #FFF;  
+ }
+  
+ .button14:before {
+    background-image: linear-gradient(90deg, #7b81ec, transparent);
+  }
+  
+  .button14:after {
+    background-image: linear-gradient(90deg, transparent, #3bd1d3);
+  }
+  
+  .button14:before,
+  .button14:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+    filter: blur(14px);
+  }
+  
+  .button14:before {
+    top: 5px;
+    left: 5px;
+  }
+  
+  .button14:after {
+    top: 5px;
+    right: 5px;
+  }
+  

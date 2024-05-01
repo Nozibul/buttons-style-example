@@ -1,5 +1,5 @@
 .button2 {
-    background-color: #04AA6D; /* Green */
+    background-color:  #53777a; /* Green */
     border: none;
     color: white;
     padding: 18px 28px;
@@ -7,7 +7,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 15px;
     cursor: pointer;
     border-start-start-radius: 7px;
     border-start-end-radius: 7px;

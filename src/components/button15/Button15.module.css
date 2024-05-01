@@ -1,0 +1,29 @@
+
+  .button15 {
+    width: 250px;
+    height: 70px;
+    font-size: 24px;
+    margin: 10px 15px;
+    text-align: center;
+    /* line-height: 100px; */
+    color: rgba(255,255,255,0.9);
+    border-radius: 50px;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+  }
+  
+ 
+  
+  @keyframes anime {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
