@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+
+.button16 {
+  font-size: 20px;
+  /* background-color: #FFEDBC !important; */
+  margin:15px;
+  color: rgba(0,0,0,0.7);
+  font-family: 'Raleway', sans-serif;
+  padding: 15px 45px;
+  /* background-color: transparent; */
+  background-image: linear-gradient(to right, #ED4264, #FFEDBC);
+  background-size: 0;
+  background-repeat-x: no-repeat;
+  border-image: linear-gradient(to right, #ED4264, #FFEDBC);
+  border-image-slice: 1;
+  border-image-width: 5px;
+  transition: background-size 0.5s ease; /* Change transition property */
+}
+
+.button16:hover {
+  background-size: 100%;
+}
