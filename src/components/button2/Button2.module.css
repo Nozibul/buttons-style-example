@@ -2,13 +2,15 @@
     background-color: #04AA6D; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 18px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-start-start-radius: 7px;
+    border-start-end-radius: 7px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
   }
