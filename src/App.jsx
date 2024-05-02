@@ -16,6 +16,7 @@ import Button14 from "./components/button14/Button14";
 import Button15 from "./components/button15/Button15";
 import Button16 from "./components/button16/Button16";
 import Button17 from "./components/button17/Button17";
+import Button18 from "./components/button18/Button18";
 
 function App() {
   return (
@@ -34,11 +35,12 @@ function App() {
       <Button13 />
       <Button15 />
       <Button16 />
+      <Button17 />
+      <Button18 />
       <div className="flex border">
         <Button12 />
         <Button14 />
       </div>
-      <Button17 />
     </div>
   );
 }
