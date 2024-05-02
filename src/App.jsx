@@ -1,4 +1,3 @@
-import React from "react";
 import Button11 from "./components/button11/Button11";
 import Button1 from "./components/button1/Button1";
 import Button2 from "./components/button2/Button2";
@@ -17,6 +16,7 @@ import Button15 from "./components/button15/Button15";
 import Button16 from "./components/button16/Button16";
 import Button17 from "./components/button17/Button17";
 import Button18 from "./components/button18/Button18";
+import Button19 from "./components/button19/Button19";
 
 function App() {
   return (
@@ -36,8 +36,9 @@ function App() {
       <Button15 />
       <Button16 />
       <Button17 />
-      <Button18 />
+      <Button19 />
       <div className="flex border">
+        <Button18 />
         <Button12 />
         <Button14 />
       </div>
