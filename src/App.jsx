@@ -19,6 +19,7 @@ import Button18 from "./components/button18/Button18";
 import Button19 from "./components/button19/Button19";
 import Button20 from "./components/button20/Button20";
 import Button21 from "./components/button21/Button21";
+import Button22 from "./components/button22/Button22";
 
 function App() {
      return (
@@ -46,6 +47,7 @@ function App() {
                     <Button14 />
                     <Button21 />
                </div>
+               <Button22 />
           </div>
      );
 }
