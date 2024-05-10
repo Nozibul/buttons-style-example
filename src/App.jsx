@@ -18,34 +18,36 @@ import Button17 from "./components/button17/Button17";
 import Button18 from "./components/button18/Button18";
 import Button19 from "./components/button19/Button19";
 import Button20 from "./components/button20/Button20";
+import Button21 from "./components/button21/Button21";
 
 function App() {
-  return (
-    <div className="text-center">
-      <Button11 />
-      <Button1 />
-      <Button2 />
-      <Button3 />
-      <Button4 />
-      <Button5 />
-      <Button6 />
-      <Button7 />
-      <Button9 />
-      <Button8 />
-      <Button10 />
-      <Button13 />
-      <Button15 />
-      <Button16 />
-      <Button17 />
-      <Button19 />
-      <div className="flex border">
-        <Button18 />
-        <Button12 />
-        <Button14 />
-      </div>
-      <Button20 />
-    </div>
-  );
+     return (
+          <div className="text-center">
+               <Button11 />
+               <Button1 />
+               <Button2 />
+               <Button3 />
+               <Button4 />
+               <Button5 />
+               <Button6 />
+               <Button7 />
+               <Button9 />
+               <Button8 />
+               <Button10 />
+               <Button13 />
+               <Button15 />
+               <Button16 />
+               <Button17 />
+               <Button18 />
+               <Button19 />
+               <Button20 />
+               <div className="flex border">
+                    <Button12 />
+                    <Button14 />
+                    <Button21 />
+               </div>
+          </div>
+     );
 }
 
 export default App;
