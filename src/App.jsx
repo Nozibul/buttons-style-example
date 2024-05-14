@@ -21,6 +21,7 @@ import Button20 from "./components/button20/Button20";
 import Button21 from "./components/button21/Button21";
 import Button22 from "./components/button22/Button22";
 import Button23 from "./components/button23/Button23";
+import Button24 from "./components/button24/Button24";
 
 function App() {
      return (
@@ -50,6 +51,7 @@ function App() {
                </div>
                <Button22 />
                <Button23 />
+               <Button24 />
           </div>
      );
 }
